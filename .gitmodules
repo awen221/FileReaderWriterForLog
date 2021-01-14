@@ -1,0 +1,3 @@
+[submodule "Submodule/FileReaderWriter"]
+	path = Submodule/FileReaderWriter
+	url = https://github.com/awen221/FileReaderWriter.git

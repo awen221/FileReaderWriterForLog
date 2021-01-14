@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileReaderWriterForLog", "FileReaderWriterForLog\FileReaderWriterForLog.csproj", "{D2DC62D5-6B17-4DA6-B00A-DA0CD3C7F26B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodule", "Submodule", "{8B2D1401-DBF3-4120-BF42-97F4A7F5EA90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileReaderWriter", "Submodule\FileReaderWriter\FileReaderWriter\FileReaderWriter.csproj", "{7D749449-0B16-48F3-943E-1AC8EBDD7103}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2DC62D5-6B17-4DA6-B00A-DA0CD3C7F26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DC62D5-6B17-4DA6-B00A-DA0CD3C7F26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DC62D5-6B17-4DA6-B00A-DA0CD3C7F26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DC62D5-6B17-4DA6-B00A-DA0CD3C7F26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D749449-0B16-48F3-943E-1AC8EBDD7103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D749449-0B16-48F3-943E-1AC8EBDD7103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D749449-0B16-48F3-943E-1AC8EBDD7103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D749449-0B16-48F3-943E-1AC8EBDD7103}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D749449-0B16-48F3-943E-1AC8EBDD7103} = {8B2D1401-DBF3-4120-BF42-97F4A7F5EA90}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36BBED5A-91C7-40B2-87BA-440191EE0CD8}
+	EndGlobalSection
+EndGlobal
